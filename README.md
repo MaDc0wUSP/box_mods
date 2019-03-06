@@ -15,7 +15,7 @@ D1-SPACER - https://www.mouser.com/ProductDetail/749-ELM-2-1MM
 
 R1 - 0805 case current limiting resistor for D1. To determine value, look at datasheet for the LED, know the max voltage of your batteries & use an LED resistor calculator
 
-S1, S2, S3 - https://www.mouser.com/ProductDetail/Omron-Electronics/B3SL-1005P?qs=FfQ8ThoHJhGe9QOr6%252bon8g%3D%3D
+S1, S2 - https://www.mouser.com/ProductDetail/Omron-Electronics/B3SL-1005P?qs=FfQ8ThoHJhGe9QOr6%252bon8g%3D%3D
 
 S4 - https://www.mouser.com/ProductDetail/CK/SS12D07VG4NSGAPA?qs=%2fha2pyFadugjks%2fHbHkDhssP9iJkVnkua0Q3TVFHBfbSkpRFT8OjGg%3d%3d
 
