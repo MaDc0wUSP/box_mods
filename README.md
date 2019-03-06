@@ -1,6 +1,6 @@
 # box_mods
 
-Brought to you by http://MosMax.com
+Brought to you by David Gabel - http://MosMax.com
 
 Edits by Christian Viola
 
