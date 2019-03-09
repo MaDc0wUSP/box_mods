@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name vm-moved)(type KiCad)(uri "$(KIPRJMOD)/vm-moved.pretty")(options "")(descr ""))
+  (lib (name spwm3.3)(type KiCad)(uri "$(KIPRJMOD)/spwm3.3.pretty")(options "")(descr ""))
 )
