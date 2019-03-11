@@ -1,4 +1,4 @@
-(module Pad_Pad7 (layer F.Cu) (tedit 0)
+(module Pad_Pad7 (layer F.Cu) (tedit 5C85709F)
   (fp_text reference Pad7 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
@@ -25,6 +25,6 @@
     (xy -0.73 -0.648) (xy -0.858 -0.341) (xy -0.902 0) (xy -0.858 0.341)
     (xy -0.73 0.648) (xy -0.53 0.892) (xy -0.279 1.048) (xy 0 1.102)
     (xy 0.279 1.048) (xy 0.53 0.892) (xy 0.73 0.648) (xy 0.858 0.341)) (layer F.Mask) (width 0))
-  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask)
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016) (zone_connect 2))
 )
