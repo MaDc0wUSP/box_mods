@@ -1,0 +1,10 @@
+(module Mount_PAD (layer F.Cu) (tedit 5C896597)
+  (fp_text reference REF** (at 0 -2.476) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Mount_PAD (at 0 2.664) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 3.2 3.2) (drill 1.7) (layers *.Cu *.Mask)
+    (zone_connect 2))
+)

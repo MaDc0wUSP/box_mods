@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ATI DNA-C PCB Smart PWM v3")(type KiCad)(uri "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty")(options "")(descr ""))
+)
