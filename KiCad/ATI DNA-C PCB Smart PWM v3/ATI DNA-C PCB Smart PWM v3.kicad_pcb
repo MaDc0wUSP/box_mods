@@ -5,7 +5,7 @@
     (drawings 32)
     (tracks 81)
     (zones 0)
-    (modules 17)
+    (modules 18)
     (nets 16)
   )
 
@@ -132,6 +132,25 @@
     (add_net "Net-(S4-PadMH2)")
     (add_net "Net-(U1-Pad7)")
     (add_net "Net-(U1-Pad9)")
+  )
+
+  (module "ATI DNA-C PCB Smart PWM v3:0.36_inch_VM" (layer F.Cu) (tedit 5C8C3FCC) (tstamp 5C8FE33C)
+    (at 141.72 100.27)
+    (fp_text reference REF** (at 0 -2.69) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.36_inch_VM (at 0 -0.73) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 11.2781 -7.3084) (end -11.5219 -7.3084) (layer F.SilkS) (width 0.15))
+    (fp_line (start -11.5219 -7.3084) (end -11.5219 6.9516) (layer F.SilkS) (width 0.15))
+    (fp_line (start -11.5219 6.9516) (end 11.2781 6.9516) (layer F.SilkS) (width 0.15))
+    (fp_line (start 11.2781 6.9516) (end 11.2781 -7.3084) (layer F.SilkS) (width 0.15))
+    (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/XDxx09x3.step"
+      (offset (xyz -0.1 0.15 4.45))
+      (scale (xyz 1.018 1 1.022))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module "ATI DNA-C PCB Smart PWM v3:PAD_24G" (layer F.Cu) (tedit 5C8C3E3F) (tstamp 5C8C67C0)
