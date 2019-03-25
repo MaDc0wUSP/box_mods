@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.0-unknown-7e34a5a~82~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.0-unknown-ff73f69~82~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 32)
+    (drawings 38)
     (tracks 81)
     (zones 0)
     (modules 18)
@@ -11,16 +11,16 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
-    (35 F.Paste user)
+    (35 F.Paste user hide)
     (36 B.SilkS user)
-    (37 F.SilkS user)
+    (37 F.SilkS user hide)
     (38 B.Mask user)
-    (39 F.Mask user)
+    (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user)
     (42 Eco1.User user)
@@ -136,7 +136,7 @@
 
   (module "ATI DNA-C PCB Smart PWM v3:0.36_inch_VM" (layer F.Cu) (tedit 5C8C3FCC) (tstamp 5C8FE33C)
     (at 141.72 100.27)
-    (fp_text reference REF** (at 0 -2.69) (layer F.SilkS)
+    (fp_text reference VM (at 0 -2.69) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.36_inch_VM (at 0 -0.73) (layer F.Fab) hide
@@ -192,7 +192,7 @@
       (net 13 /VM+) (solder_mask_margin 0.1016) (zone_connect 2))
   )
 
-  (module "ATI DNA-C PCB Smart PWM v3:SmartPWM_V3" (layer F.Cu) (tedit 5C8C11E5) (tstamp 5C8C14F6)
+  (module "ATI DNA-C PCB Smart PWM v3:SmartPWM_V3" (layer F.Cu) (tedit 5C993431) (tstamp 5C8C14F6)
     (at 175.438 104.848)
     (path /5C8C4E73)
     (fp_text reference U1 (at 0 0) (layer F.SilkS) hide
@@ -231,8 +231,8 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -180 -90))
     )
-    (model /home/madc0w/Desktop/SmartPWMv3/SmartPWMv3/SmartPWMv3.step
-      (offset (xyz -151 92 -6))
+    (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/SmartPWM_v3.step"
+      (offset (xyz -15.8 5.2 -5.9))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -264,7 +264,7 @@
       (net 1 /Fire) (solder_mask_margin 0.1016) (zone_connect 2))
   )
 
-  (module "ATI DNA-C PCB Smart PWM v3:LED_4mm" (layer F.Cu) (tedit 5C8C4149) (tstamp 5C887665)
+  (module "ATI DNA-C PCB Smart PWM v3:LED_4mm" (layer F.Cu) (tedit 5C9932CC) (tstamp 5C887665)
     (at 171.62 100.144 180)
     (descr "LED, diameter 4.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-43GD(Ver.12B).pdf")
     (tags "LED diameter 4.0mm 2 pins")
@@ -290,19 +290,19 @@
     (fp_arc (start 0.01 0) (end -2.05 1.408749) (angle -120.1) (layer F.SilkS) (width 0.25))
     (fp_arc (start 0.01 0) (end -2.05 -1.388749) (angle 120.1) (layer F.SilkS) (width 0.25))
     (fp_arc (start 0.01 0.01) (end -1.99 -1.31665) (angle 292.9) (layer F.Fab) (width 0.1))
-    (pad 2 thru_hole circle (at 1.28 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 2 thru_hole rect (at 1.28 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 12 /LED+))
     (pad 1 thru_hole rect (at -1.26 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 8 /GND))
-    (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D4.0mm.wrl
-      (offset (xyz -1.3 0 -1.8))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/ELM 2.igs"
       (at (xyz 0 0 0))
       (scale (xyz 1 0.1 1))
       (rotate (xyz -90 0 90))
+    )
+    (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/SSL-LX40FT3ID-v0.step"
+      (offset (xyz 0 0 1.3))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -655,7 +655,7 @@
     )
   )
 
-  (module "ATI DNA-C PCB Smart PWM v3:KSC641JLFS" (layer F.Cu) (tedit 5C8C3FF4) (tstamp 5C8C5CEC)
+  (module "ATI DNA-C PCB Smart PWM v3:KSC641JLFS" (layer F.Cu) (tedit 5C993183) (tstamp 5C8C5CEC)
     (at 118.523 100.144 270)
     (descr "Up, Down, Fire")
     (tags "Tactile Switch")
@@ -685,14 +685,14 @@
       (net 1 /Fire) (solder_paste_margin -0.1016) (zone_connect 2))
     (pad 4 smd rect (at 2.9 2 270) (size 2.8 1) (layers F.Cu F.Paste F.Mask)
       (net 1 /Fire) (solder_paste_margin -0.1016) (zone_connect 2))
-    (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/430481035816 (rev1).stp"
+    (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/omron-tact-color.step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
-  (module "ATI DNA-C PCB Smart PWM v3:KSC641JLFS" (layer F.Cu) (tedit 5C8C3FF4) (tstamp 5C8C5CFD)
+  (module "ATI DNA-C PCB Smart PWM v3:KSC641JLFS" (layer F.Cu) (tedit 5C993183) (tstamp 5C8C5CFD)
     (at 158.51 100.144 270)
     (descr "Up, Down, Fire")
     (tags "Tactile Switch")
@@ -722,14 +722,14 @@
       (net 2 /Up) (solder_paste_margin -0.1016) (zone_connect 2))
     (pad 4 smd rect (at 2.9 2 270) (size 2.8 1) (layers F.Cu F.Paste F.Mask)
       (net 2 /Up) (solder_paste_margin -0.1016) (zone_connect 2))
-    (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/430481035816 (rev1).stp"
+    (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/omron-tact-color.step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
-  (module "ATI DNA-C PCB Smart PWM v3:KSC641JLFS" (layer F.Cu) (tedit 5C8C3FF4) (tstamp 5C8C5D0E)
+  (module "ATI DNA-C PCB Smart PWM v3:KSC641JLFS" (layer F.Cu) (tedit 5C993183) (tstamp 5C8C5D0E)
     (at 165.062 100.144 90)
     (descr "Up, Down, Fire")
     (tags "Tactile Switch")
@@ -759,13 +759,23 @@
       (net 3 /Down) (solder_paste_margin -0.1016) (zone_connect 2))
     (pad 4 smd rect (at 2.9 2 90) (size 2.8 1) (layers F.Cu F.Paste F.Mask)
       (net 3 /Down) (solder_paste_margin -0.1016) (zone_connect 2))
-    (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/430481035816 (rev1).stp"
+    (model "${KIPRJMOD}/ATI DNA-C PCB Smart PWM v3.pretty/omron-tact-color.step"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
+  (gr_text "Designed by MosMax" (at 161.69 95.29) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "Powered by" (at 163.95 97.99) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_poly (pts (xy 156.694106 97.747276) (xy 156.913181 97.743307) (xy 156.360731 96.847163) (xy 156.357556 96.843988) (xy 156.235319 96.647138) (xy 156.210712 96.647138) (xy 155.713031 96.647138) (xy 155.683662 96.647138) (xy 155.458237 96.647138) (xy 155.601113 96.853513) (xy 155.6027 96.853513) (xy 155.867812 97.2742) (xy 155.871781 97.278169) (xy 155.990843 97.469463) (xy 156.043231 97.469463) (xy 156.417087 97.47105) (xy 156.278181 97.282138) (xy 156.101968 97.282138) (xy 156.101175 97.278963) (xy 156.098 97.274994) (xy 155.83765 96.853513) (xy 156.128162 96.853513) (xy 156.694106 97.747276)) (layer B.SilkS) (width 0.007937))
+  (gr_poly (pts (xy 157.214806 98.250513) (xy 156.966363 98.250513) (xy 157.358475 98.952188) (xy 158.558625 96.889232) (xy 158.844375 96.894788) (xy 158.6634 97.218638) (xy 158.459406 97.218638) (xy 158.3205 97.472638) (xy 158.765 97.472638) (xy 159.245219 96.647138) (xy 158.425275 96.647138) (xy 157.352918 98.495782) (xy 157.214806 98.250513)) (layer B.SilkS) (width 0.007937))
+  (gr_poly (pts (xy 157.610887 97.869513) (xy 156.163087 97.869513) (xy 157.364824 99.924532) (xy 158.540368 97.869513) (xy 158.063325 97.869513) (xy 157.931562 98.107638) (xy 158.142699 98.107638) (xy 157.356887 99.410181) (xy 156.595681 98.123513) (xy 157.452931 98.123513) (xy 157.610887 97.869513)) (layer B.SilkS) (width 0.007937))
+  (gr_poly (pts (xy 231.602906 132.562071) (xy 252.928315 132.562071) (xy 252.928315 129.334166) (xy 252.92382 129.153478) (xy 252.910338 128.978526) (xy 252.887874 128.809311) (xy 252.856433 128.645832) (xy 252.81602 128.488089) (xy 252.766639 128.336082) (xy 252.708296 128.189811) (xy 252.640995 128.049277) (xy 252.564741 127.914479) (xy 252.479539 127.785417) (xy 252.385393 127.662091) (xy 252.282309 127.544501) (xy 252.170292 127.432648) (xy 252.049346 127.326531) (xy 251.919475 127.226149) (xy 251.780686 127.131504) (xy 251.632983 127.042595) (xy 251.47637 126.959423) (xy 251.310853 126.881986) (xy 251.136436 126.810285) (xy 250.953124 126.744321) (xy 250.760922 126.684093) (xy 250.559834 126.6296) (xy 250.349867 126.580844) (xy 250.131024 126.537824) (xy 249.90331 126.50054) (xy 249.66673 126.468992) (xy 249.42129 126.443179) (xy 249.166993 126.423103) (xy 248.903845 126.408763) (xy 248.63185 126.400159) (xy 248.351014 126.397291) (xy 237.688294 126.397291) (xy 236.952842 126.409687) (xy 236.264556 126.446849) (xy 235.623478 126.508738) (xy 235.029644 126.595316) (xy 234.483095 126.706543) (xy 233.983868 126.842381) (xy 233.532003 127.002791) (xy 233.127538 127.187735) (xy 232.770511 127.397173) (xy 232.460963 127.631067) (xy 232.324005 127.757173) (xy 232.198931 127.889379) (xy 232.085746 128.027679) (xy 231.984455 128.172068) (xy 231.895062 128.322543) (xy 231.817572 128.479098) (xy 231.75199 128.641728) (xy 231.698322 128.810428) (xy 231.656571 128.985194) (xy 231.626744 129.16602) (xy 231.608843 129.352902) (xy 231.602876 129.545836) (xy 231.602876 132.562071) (xy 231.602906 132.562071)) (layer F.Fab) (width 0.264583))
   (dimension 65.99954 (width 0.12) (layer F.Fab)
     (gr_text "66.000 mm" (at 151.527722 132.664093 -0.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
