@@ -8,7 +8,7 @@ Alpinetech DNA75C/DNA250C enclosure with or without 12mm momentary switch cutout
 
 Components:
 
-D1 - https://www.mouser.com/ProductDetail/Lumex/SSL-LX40FT3ID?qs=%2fha2pyFadujxBjlUmTzxXrCIgmGlcT2WBxtU6kQaw6TtNoou84YoUQ%3d%3d
+D1 - [red](https://www.mouser.com/ProductDetail/Lumex/SSL-LX40FT3ID?qs=%2fha2pyFadujxBjlUmTzxXrCIgmGlcT2WBxtU6kQaw6TtNoou84YoUQ%3d%3d), [green](https://www.mouser.com/ProductDetail/Lumex/SSL-LX40FT3GD?qs=sGAEpiMZZMtmwHDZQCdlqVsz6Sp3LtaXupd43WLqkcA%3D) or [yellow](https://www.mouser.com/ProductDetail/Lumex/SSL-LX40FT3YD?qs=sGAEpiMZZMtmwHDZQCdlqVsz6Sp3LtaXUiOcvLs1KM8%3D)
 
 D1-SPACER - https://www.mouser.com/ProductDetail/749-ELM-2-1MM
 
