@@ -1,0 +1,63 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# DB4X313K0R
+#
+DEF DB4X313K0R U 0 -65 N N 1 F N
+F0 "U" 200 175 60 H V C CNN
+F1 "DB4X313K0R" 200 -300 60 H V C CNN
+F2 "MINI4-G4-B" 200 -360 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ MINI4-G4-B
+ MINI4-G4-B-M
+ MINI4-G4-B-L
+$ENDFPLIST
+DRAW
+P 2 1 0 8 100 -200 137 -200 N
+P 2 1 0 8 100 0 137 0 N
+P 2 1 0 8 125 -200 150 -200 N
+P 2 1 0 8 125 0 150 0 N
+P 2 1 0 8 150 -275 250 -200 N
+P 2 1 0 8 150 -125 150 -275 N
+P 2 1 0 8 150 -75 250 0 N
+P 2 1 0 8 150 75 150 -75 N
+P 2 1 0 8 250 -275 250 -125 N
+P 2 1 0 8 250 -200 150 -125 N
+P 2 1 0 8 250 -200 300 -200 N
+P 2 1 0 8 250 -75 250 75 N
+P 2 1 0 8 250 0 150 75 N
+P 2 1 0 8 250 0 300 0 N
+X 1 1 0 0 100 R 59 59 1 0 U
+X 2 2 0 -200 100 R 59 59 1 0 U
+X 3 3 400 -200 100 L 59 59 1 0 U
+X 4 4 400 0 100 L 59 59 1 0 U
+ENDDRAW
+ENDDEF
+#
+# xDB4X313K0R
+#
+DEF xDB4X313K0R IC 0 30 Y Y 1 F N
+F0 "IC" 750 300 50 H V L CNN
+F1 "xDB4X313K0R" 750 200 50 H V L CNN
+F2 "MINI4-G4-B" 750 100 50 H I L CNN
+F3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DB4X313K0R_E.pdf" 750 0 50 H I L CNN
+F4 "Panasonic 30V 300mA, Dual Diode, 4-Pin SOT-143 DB4X313K0R" 750 -100 50 H I L CNN "Description"
+F5 "Panasonic" 750 -300 50 H I L CNN "Manufacturer_Name"
+F6 "DB4X313K0R" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "667-DB4X313K0R" 750 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-DB4X313K0R" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "1683548" 750 -700 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/1683548" 750 -800 50 H I L CNN "RS Price/Stock"
+F11 "70358528" 750 -900 50 H I L CNN "Allied_Number"
+F12 "http://www.alliedelec.com/panasonic-db4x313k0r/70358528/" 750 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+X A1 1 0 0 200 R 50 50 0 0 B
+X A2 2 0 -100 200 R 50 50 0 0 B
+X K2 3 900 0 200 L 50 50 0 0 B
+X K1 4 900 -100 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PSMN1R2-25YLC,115
+#/905670/110954/2.37/5/4/MOSFET (N-Channel)
+DEF PSMN1R2-25YLC,115 Q 0 30 Y Y 1 F N
+F0 "Q" 750 300 50 H V L CNN
+F1 "PSMN1R2-25YLC,115" 750 200 50 H V L CNN
+F2 "PSMN5R660YLX" 750 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PSMN1R2-25YLC.pdf" 750 0 50 H I L CNN
+F4 "Logic-level MOSFET N-ch. 25V 100A SOT669" 750 -100 50 H I L CNN "Description"
+F5 "" 750 -200 50 H I L CNN "Height"
+F6 "Nexperia" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PSMN1R2-25YLC,115" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-PSMN1R225YLC115" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-PSMN1R225YLC115" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1660022" 750 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1660022" 750 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 0 -100 200 R 50 50 0 0 B
+X ~ 3 0 -200 200 R 50 50 0 0 B
+X ~ 4 900 0 200 L 50 50 0 0 B
+X ~ 5 900 -100 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

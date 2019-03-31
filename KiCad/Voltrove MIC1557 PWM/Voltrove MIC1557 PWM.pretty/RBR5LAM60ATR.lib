@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RBR5LAM60ATR
+#/846548/110954/2.37/2/4/Schottky Diode
+DEF RBR5LAM60ATR D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "RBR5LAM60ATR" 500 250 50 H V L CNN
+F2 "SODFL4725X105N" 500 150 50 H I L CNN
+F3 "http://www.rohm.com/web/global/datasheet/RBR5LAM60A/rbr5lam60atr-e" 500 50 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers 60V Vr 5A Io Schottky Br Diode" 500 -50 50 H I L CNN "Description"
+F5 "1.05" 500 -150 50 H I L CNN "Height"
+F6 "ROHM Semiconductor" 500 -250 50 H I L CNN "Manufacturer_Name"
+F7 "RBR5LAM60ATR" 500 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "755-RBR5LAM60ATR" 500 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=755-RBR5LAM60ATR" 500 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "1333274P" 500 -650 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1333274P" 500 -750 50 H I L CNN "RS Price/Stock"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 B
+X ~ 2 700 0 100 L 50 50 0 0 B
+P 4 0 1 6 300 0 500 100 500 -100 300 0 N
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
