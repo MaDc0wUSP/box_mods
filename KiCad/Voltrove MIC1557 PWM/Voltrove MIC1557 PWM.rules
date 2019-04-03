@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2214)
+    (start_pass_no 1245)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -63,9 +63,9 @@
     )
   )
   (class "kicad_default"
-    /Down "Net-(S4-Pad3)" "Net-(S4-PadMH1)" "Net-(S4-PadMH2)" "Net-(C1-Pad1)" GND /VIN+ "Net-(C3-Pad1)"
-    "Net-(C4-Pad1)" "Net-(D1-Pad1)" "Net-(D1-Pad3)" /UP "Net-(IC1-Pad6)" "/510-" "Net-(Q2-Pad4)" "Net-(R2-Pad2)"
-    "Net-(R3-Pad1)" "Net-(D3-Pad1)" "Net-(D3-Pad2)" "Net-(R5-Pad2)"
+    /Down "Net-(S4-Pad3)" "Net-(S4-PadMH1)" "Net-(S4-PadMH2)" "Net-(C1-Pad1)" GND /UP "/510-"
+    "Net-(Q2-Pad4)" /VIN+toFire1 /VIN+toSwitch /VIN+toR5 /R5toD3 /VIN+fromQ1Source /VIN+toQ1Drain /U1toR2
+    /5V+toC3 /POT0% /POT100% /POTWIPER /D2toSTR /U1OUT
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

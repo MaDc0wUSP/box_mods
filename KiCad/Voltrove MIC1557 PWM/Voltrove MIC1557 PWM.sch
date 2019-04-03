@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:Voltrove MIC1557 PWM-cache
 EELAYER 29 0
 EELAYER END
@@ -22,34 +22,34 @@ Wire Wire Line
 Wire Wire Line
 	4500 5100 4500 5400
 Wire Wire Line
-	4300 4800 4250 4800
+	4300 4800 4150 4800
 Wire Wire Line
-	2950 4300 3000 4300
+	2700 4300 2750 4300
 Wire Wire Line
-	2500 4200 3000 4200
+	2250 4200 2750 4200
 Wire Wire Line
-	3000 4100 3000 3900
+	2750 4100 2750 3900
 Wire Wire Line
-	3000 3900 2500 3900
-Connection ~ 2500 3900
+	2750 3900 2250 3900
+Connection ~ 2250 3900
 Wire Wire Line
-	4000 4100 4150 4100
+	3750 4100 3900 4100
 Wire Wire Line
-	4150 4100 4150 4800
-Connection ~ 4150 4800
+	3900 4100 3900 4800
+Connection ~ 3900 4800
 Wire Wire Line
-	2500 5400 2500 4200
-Connection ~ 2500 4200
+	2250 5400 2250 4200
+Connection ~ 2250 4200
 Wire Wire Line
-	2950 4300 2950 4800
+	2700 4300 2700 4800
 Wire Wire Line
-	2950 4800 3350 4800
+	2700 4800 3100 4800
 Text Label 6950 3050 0    50   ~ 0
 510-
 Wire Wire Line
 	6350 4200 6950 4200
 Text Label 5100 4800 1    50   ~ 0
-VIN+
+VIN+toQ1Drain
 Connection ~ 6950 5050
 Wire Wire Line
 	6950 5050 6950 5400
@@ -67,32 +67,32 @@ $EndComp
 $Comp
 L Voltrove~MIC1557~PWM:DB4X313K0R D1
 U 1 1 5C9EAD9B
-P 3100 2850
-F 0 "D1" V 3000 2700 60  0000 L CNN
-F 1 "DB4X313K0R" V 2900 2450 60  0000 L CNN
-F 2 "Voltrove MIC1557 PWM:DB4X313K0R" H 3300 2490 60  0001 C CNN
-F 3 "" H 3100 2850 60  0000 C CNN
-F 4 "http://www.alliedelec.com/panasonic-db4x313k0r/70358528/" H -2100 -550 50  0001 C CNN "Allied Price/Stock"
-F 5 "70358528" H -2100 -550 50  0001 C CNN "Allied_Number"
-F 6 "Panasonic 30V 300mA, Dual Diode, 4-Pin SOT-143 DB4X313K0R" H -2100 -550 50  0001 C CNN "Description"
-F 7 "Panasonic" H -2100 -550 50  0001 C CNN "Manufacturer_Name"
-F 8 "DB4X313K0R" H -2100 -550 50  0001 C CNN "Manufacturer_Part_Number"
-F 9 "667-DB4X313K0R" H -2100 -550 50  0001 C CNN "Mouser Part Number"
-F 10 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-DB4X313K0R" H -2100 -550 50  0001 C CNN "Mouser Price/Stock"
-F 11 "1683548" H -2100 -550 50  0001 C CNN "RS Part Number"
-F 12 "http://uk.rs-online.com/web/p/products/1683548" H -2100 -550 50  0001 C CNN "RS Price/Stock"
-	1    3100 2850
+P 2850 2850
+F 0 "D1" V 2750 2700 60  0000 L CNN
+F 1 "DB4X313K0R" V 2650 2450 60  0000 L CNN
+F 2 "Voltrove MIC1557 PWM:DB4X313K0R" H 3050 2490 60  0001 C CNN
+F 3 "" H 2850 2850 60  0000 C CNN
+F 4 "http://www.alliedelec.com/panasonic-db4x313k0r/70358528/" H -2350 -550 50  0001 C CNN "Allied Price/Stock"
+F 5 "70358528" H -2350 -550 50  0001 C CNN "Allied_Number"
+F 6 "Panasonic 30V 300mA, Dual Diode, 4-Pin SOT-143 DB4X313K0R" H -2350 -550 50  0001 C CNN "Description"
+F 7 "Panasonic" H -2350 -550 50  0001 C CNN "Manufacturer_Name"
+F 8 "DB4X313K0R" H -2350 -550 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "667-DB4X313K0R" H -2350 -550 50  0001 C CNN "Mouser Part Number"
+F 10 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-DB4X313K0R" H -2350 -550 50  0001 C CNN "Mouser Price/Stock"
+F 11 "1683548" H -2350 -550 50  0001 C CNN "RS Part Number"
+F 12 "http://uk.rs-online.com/web/p/products/1683548" H -2350 -550 50  0001 C CNN "RS Price/Stock"
+	1    2850 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5C9E7679
-P 2500 5400
-F 0 "#PWR01" H 2500 5150 50  0001 C CNN
-F 1 "GND" H 2505 5227 50  0000 C CNN
-F 2 "" H 2500 5400 50  0001 C CNN
-F 3 "" H 2500 5400 50  0001 C CNN
-	1    2500 5400
+P 2250 5400
+F 0 "#PWR01" H 2250 5150 50  0001 C CNN
+F 1 "GND" H 2255 5227 50  0000 C CNN
+F 2 "" H 2250 5400 50  0001 C CNN
+F 3 "" H 2250 5400 50  0001 C CNN
+	1    2250 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -120,12 +120,12 @@ $EndComp
 $Comp
 L Device:C C1
 U 1 1 5C9B14A9
-P 2500 4050
-F 0 "C1" H 2615 4096 50  0000 L CNN
-F 1 "0.47uF" H 2615 4005 50  0000 L CNN
-F 2 "Voltrove MIC1557 PWM:C_0603_1608Metric" H 2538 3900 50  0001 C CNN
-F 3 "~" H 2500 4050 50  0001 C CNN
-	1    2500 4050
+P 2250 4050
+F 0 "C1" H 2365 4096 50  0000 L CNN
+F 1 "0.47uF" H 2365 4005 50  0000 L CNN
+F 2 "Voltrove MIC1557 PWM:C_0603_1608Metric" H 2288 3900 50  0001 C CNN
+F 3 "~" H 2250 4050 50  0001 C CNN
+	1    2250 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -142,12 +142,12 @@ $EndComp
 $Comp
 L Device:R R2
 U 1 1 5C9B0658
-P 3500 4800
-F 0 "R2" V 3293 4800 50  0000 C CNN
-F 1 "1M" V 3384 4800 50  0000 C CNN
-F 2 "Voltrove MIC1557 PWM:R_0603_1608Metric" V 3430 4800 50  0001 C CNN
-F 3 "~" H 3500 4800 50  0001 C CNN
-	1    3500 4800
+P 3250 4800
+F 0 "R2" V 3043 4800 50  0000 C CNN
+F 1 "1M" V 3134 4800 50  0000 C CNN
+F 2 "Voltrove MIC1557 PWM:R_0603_1608Metric" V 3180 4800 50  0001 C CNN
+F 3 "~" H 3250 4800 50  0001 C CNN
+	1    3250 4800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -181,20 +181,20 @@ $EndComp
 $Comp
 L Voltrove~MIC1557~PWM:MIC1557YM5_TR U1
 U 1 1 5C9AB238
-P 3000 4100
-F 0 "U1" H 3500 4365 50  0000 C CNN
-F 1 "MIC1557YM5_TR" H 3500 4274 50  0000 C CNN
-F 2 "Voltrove MIC1557 PWM:MIC1557YM5_TR" H 3850 4200 50  0001 L CNN
-F 3 "" H 3850 4100 50  0001 L CNN
-F 4 "Standard Timer Single 5-Pin SOT-23 T/R Micrel MIC1557YM5 TR, Timer, 2.7  18 V, 5-Pin SOT-23" H 3850 4000 50  0001 L CNN "Description"
-F 5 "1.45" H 3850 3900 50  0001 L CNN "Height"
-F 6 "Micrel" H 3850 3800 50  0001 L CNN "Manufacturer_Name"
-F 7 "MIC1557YM5 TR" H 3850 3700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "N/A" H 3850 3600 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 3850 3500 50  0001 L CNN "Mouser Price/Stock"
-F 10 "7272555P" H 3850 3400 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/7272555P" H 3850 3300 50  0001 L CNN "RS Price/Stock"
-	1    3000 4100
+P 2750 4100
+F 0 "U1" H 3250 4365 50  0000 C CNN
+F 1 "MIC1557YM5_TR" H 3250 4274 50  0000 C CNN
+F 2 "Voltrove MIC1557 PWM:MIC1557YM5_TR" H 3600 4200 50  0001 L CNN
+F 3 "" H 3600 4100 50  0001 L CNN
+F 4 "Standard Timer Single 5-Pin SOT-23 T/R Micrel MIC1557YM5 TR, Timer, 2.7  18 V, 5-Pin SOT-23" H 3600 4000 50  0001 L CNN "Description"
+F 5 "1.45" H 3600 3900 50  0001 L CNN "Height"
+F 6 "Micrel" H 3600 3800 50  0001 L CNN "Manufacturer_Name"
+F 7 "MIC1557YM5 TR" H 3600 3700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "N/A" H 3600 3600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 3600 3500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "7272555P" H 3600 3400 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/7272555P" H 3600 3300 50  0001 L CNN "RS Price/Stock"
+	1    2750 4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -275,8 +275,8 @@ $Comp
 L Device:C C4
 U 1 1 5CA143D6
 P 3100 2000
-F 0 "C4" H 3215 2046 50  0000 L CNN
-F 1 "10uF" H 3215 1955 50  0000 L CNN
+F 0 "C4" H 2850 2050 50  0000 L CNN
+F 1 "10uF" H 2800 1950 50  0000 L CNN
 F 2 "Voltrove MIC1557 PWM:C_0603_1608Metric" H 3138 1850 50  0001 C CNN
 F 3 "~" H 3100 2000 50  0001 C CNN
 	1    3100 2000
@@ -373,7 +373,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 1350 4850 1750
 Wire Wire Line
-	4950 4200 4000 4200
+	4950 4200 3750 4200
 Wire Wire Line
 	4950 4200 6050 4200
 Connection ~ 4950 4200
@@ -394,8 +394,6 @@ Wire Wire Line
 	4650 1450 4950 1450
 Wire Wire Line
 	4650 1550 4650 2450
-Wire Wire Line
-	3650 1250 3550 1250
 $Comp
 L Device:C C2
 U 1 1 5CA1E9E7
@@ -420,7 +418,7 @@ UP
 Text Label 1850 1500 0    50   ~ 0
 Down
 Wire Wire Line
-	3650 4800 4150 4800
+	3400 4800 3900 4800
 Connection ~ 5300 4800
 Wire Wire Line
 	6500 4900 6500 4800
@@ -445,22 +443,20 @@ Wire Wire Line
 Connection ~ 1650 2700
 Connection ~ 3100 2450
 Wire Wire Line
-	3000 3750 2500 3750
-Connection ~ 2500 3750
+	2750 3750 2250 3750
+Connection ~ 2250 3750
 Wire Wire Line
-	2500 3750 2500 3900
+	2250 3750 2250 3900
 Wire Wire Line
-	3000 2850 2500 2850
+	2750 2850 2250 2850
 Wire Wire Line
-	2500 2850 2500 3750
-Wire Wire Line
-	3100 2850 3650 2850
+	2250 2850 2250 3750
 Wire Wire Line
 	3650 1550 3650 2850
 Wire Wire Line
-	3550 3750 3100 3750
+	3300 3750 2850 3750
 Wire Wire Line
-	3550 1250 3550 3750
+	3300 1250 3300 3750
 Wire Wire Line
 	4150 2600 4150 2450
 $Comp
@@ -522,16 +518,12 @@ Connection ~ 5400 2300
 Wire Wire Line
 	4900 4800 5300 4800
 Wire Wire Line
-	4250 4800 4250 3050
+	4000 4800 4000 3050
 Wire Wire Line
-	4250 3050 5150 3050
+	4000 3050 5150 3050
+Connection ~ 4000 4800
 Wire Wire Line
-	5150 3050 5150 2850
-Connection ~ 4250 4800
-Wire Wire Line
-	4250 4800 4150 4800
-Text Label 4250 3700 0    50   ~ 0
-VIN+
+	4000 4800 3900 4800
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 5CBF5CDE
@@ -553,7 +545,7 @@ Text GLabel 6950 5250 0    50   Input ~ 0
 GND
 Text GLabel 4500 5250 0    50   Input ~ 0
 GND
-Text GLabel 2500 5250 0    50   Input ~ 0
+Text GLabel 2250 5250 0    50   Input ~ 0
 GND
 Text GLabel 4150 2550 0    50   Input ~ 0
 GND
@@ -700,24 +692,66 @@ GND
 Wire Wire Line
 	7950 2250 7950 2700
 Wire Wire Line
-	5150 2850 5450 2850
-Wire Wire Line
 	5450 2850 5450 2550
 Wire Wire Line
 	5450 2550 7850 2550
 Wire Wire Line
 	7850 2550 7850 2950
-Connection ~ 5150 2850
-Wire Wire Line
-	5150 2850 5150 1600
 Text Notes 7900 3200 0    50   ~ 0
 VMM to 510+
-Text Label 6000 3050 1    50   ~ 0
-VIN+
 Text Notes 6000 2750 0    50   ~ 0
 VIN+ PAD to BATT+
 Text Notes 6900 2700 0    50   ~ 0
 510- PAD to 510-
 Text Notes 8050 3950 0    50   ~ 0
 BATT- PAD to BATT-
+Text Label 5500 3050 0    50   ~ 0
+VIN+toSwitch
+Text Label 6250 3850 0    50   ~ 0
+VIN+toFire1
+Text Label 5650 3850 3    50   ~ 0
+R5toD3
+Text Label 4500 5150 0    50   ~ 0
+GatetoGND
+Text Label 5300 3500 3    50   ~ 0
+VIN+toR5
+Text Label 4000 3900 1    50   ~ 0
+VIN+fromQ1Source
+Text Label 2700 4800 0    50   ~ 0
+U1toR2
+Text Label 3500 4800 0    50   ~ 0
+R2toVS
+Text Label 3900 4500 2    50   ~ 0
+R2toVS
+Text Label 5450 2700 0    50   ~ 0
+VIN+VM+
+Text Label 7000 1350 0    50   ~ 0
+5V+OUT
+Text Label 7150 2000 0    50   ~ 0
+5V+toC3
+Text Label 5800 1600 0    50   ~ 0
+C2toVIN
+Text Label 3300 3300 1    50   ~ 0
+POT100%
+Text Label 3650 2150 1    50   ~ 0
+POT0%
+Text Label 4950 2400 1    50   ~ 0
+POTWIPER
+Wire Wire Line
+	2850 2850 3650 2850
+Wire Wire Line
+	3300 1250 3650 1250
+Wire Wire Line
+	5150 1600 5150 3050
+Wire Wire Line
+	5450 2850 4150 2850
+Wire Wire Line
+	4150 2850 4150 4800
+Connection ~ 4150 4800
+Wire Wire Line
+	4150 4800 4000 4800
+Text Label 3100 1100 0    50   ~ 0
+D2toSTR
+Text Label 4350 4200 0    50   ~ 0
+U1OUT
 $EndSCHEMATC
