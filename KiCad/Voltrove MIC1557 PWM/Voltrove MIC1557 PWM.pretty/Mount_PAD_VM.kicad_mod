@@ -1,0 +1,18 @@
+(module Mount_PAD_VM (layer F.Cu) (tedit 5CA6A824)
+  (fp_text reference PAD4_VM (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value Mount_PAD_VM (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer F.CrtYd) (width 0.12))
+  (fp_line (start -2.5 2.5) (end -2.5 -2.5) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 2.5 -2.5) (end 2.5 2.5) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 2.5 2.5) (end -2.5 2.5) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 2.5 -2.5) (end 2.5 2.5) (layer B.CrtYd) (width 0.12))
+  (fp_line (start 2.5 2.5) (end -2.5 2.5) (layer B.CrtYd) (width 0.12))
+  (fp_line (start -2.5 2.5) (end -2.5 -2.5) (layer B.CrtYd) (width 0.12))
+  (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer B.CrtYd) (width 0.12))
+  (pad 1 thru_hole circle (at 0 0) (size 3.2 3.2) (drill 1.7) (layers *.Cu *.Mask)
+    (zone_connect 2))
+)

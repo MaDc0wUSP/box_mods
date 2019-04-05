@@ -225,8 +225,6 @@ Wire Wire Line
 Connection ~ 7850 3800
 Wire Wire Line
 	6950 3800 6950 4200
-Wire Wire Line
-	6950 3700 6950 2800
 $Comp
 L Voltrove~MIC1557~PWM:KSC641JLFS S1
 U 1 1 5C9BEA02
@@ -754,4 +752,11 @@ Text Label 3100 1100 0    50   ~ 0
 D2toSTR
 Text Label 4350 4200 0    50   ~ 0
 U1OUT
+Wire Wire Line
+	7050 3600 6950 3600
+Wire Wire Line
+	6950 2800 6950 3600
+Connection ~ 6950 3600
+Wire Wire Line
+	6950 3600 6950 3700
 $EndSCHEMATC
