@@ -1,0 +1,17 @@
+(module 0.36_inch_VM (layer F.Cu) (tedit 5CAA511F)
+  (fp_text reference REF** (at 0 -2.69) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 0.36_inch_VM (at 0 -0.73) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 11.2781 6.9516) (end 11.2781 -7.3084) (layer F.SilkS) (width 0.15))
+  (fp_line (start -11.5219 6.9516) (end 11.2781 6.9516) (layer F.SilkS) (width 0.15))
+  (fp_line (start -11.5219 -7.3084) (end -11.5219 6.9516) (layer F.SilkS) (width 0.15))
+  (fp_line (start 11.2781 -7.3084) (end -11.5219 -7.3084) (layer F.SilkS) (width 0.15))
+  (model "${KIPRJMOD}/VoltMax PWM.pretty/XDxx09x3.step"
+    (offset (xyz -0.1 0.15 4.45))
+    (scale (xyz 1.018 1 1.022))
+    (rotate (xyz -90 0 0))
+  )
+)

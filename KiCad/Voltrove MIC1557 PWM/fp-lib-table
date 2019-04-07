@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "Voltrove MIC1557 PWM")(type KiCad)(uri "${KIPRJMOD}/Voltrove MIC1557 PWM.pretty")(options "")(descr ""))
-)

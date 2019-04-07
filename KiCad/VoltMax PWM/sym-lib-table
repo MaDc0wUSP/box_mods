@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "VoltMax PWM")(type Legacy)(uri "${KIPRJMOD}/VoltMax PWM.lib")(options "")(descr ""))
+  (lib (name DB4X313K0R)(type Legacy)(uri "${KIPRJMOD}/VoltMax PWM.pretty/DB4X313K0R.lib")(options "")(descr ""))
+)

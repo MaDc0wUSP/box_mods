@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "Voltrove MIC1557 PWM")(type Legacy)(uri "${KIPRJMOD}/Voltrove MIC1557 PWM.lib")(options "")(descr ""))
-  (lib (name DB4X313K0R)(type Legacy)(uri "${KIPRJMOD}/Voltrove MIC1557 PWM.pretty/DB4X313K0R.lib")(options "")(descr ""))
-)
