@@ -1,67 +1,4 @@
-14227938113115906
-ATI DNA-C PCB Smart PWM v3
-0.36_inch_VM
-
-
-0
-0
-0
-ATI DNA-C PCB Smart PWM v3
-KSC641JLFS
-Up, Down, Fire
-Tactile Switch
-0
-4
-4
-ATI DNA-C PCB Smart PWM v3
-LED_4mm
-LED, diameter 4.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-43GD(Ver.12B).pdf
-LED diameter 4.0mm 2 pins
-0
-2
-2
-ATI DNA-C PCB Smart PWM v3
-Mount_PAD
-
-
-0
-1
-1
-ATI DNA-C PCB Smart PWM v3
-PAD_22G
-
-
-0
-1
-1
-ATI DNA-C PCB Smart PWM v3
-PAD_24G
-
-
-0
-1
-1
-ATI DNA-C PCB Smart PWM v3
-R_0805_2012
-Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-Resistor
-0
-2
-2
-ATI DNA-C PCB Smart PWM v3
-SmartPWM_V3
-
-
-0
-10
-10
-ATI DNA-C PCB Smart PWM v3
-SS-12D07-VG4NSGAPA
-Description: Switch: SPDT: Normally Closed
-
-0
-5
-5
+14241939686139047
 Battery
 BatteryHolder_CR1220_Keystone_500
 Keystone #500, CR1220 battery holder
@@ -65498,3 +65435,129 @@ varistor SIOV
 0
 2
 2
+VoltMax PWM
+0.36_inch_VM
+
+
+0
+0
+0
+VoltMax PWM
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+VoltMax PWM
+DB4X313K0R
+Mini4-G4-B
+Integrated Circuit
+0
+4
+4
+VoltMax PWM
+DS1809Z-010+
+DS1809Z-010+
+Integrated Circuit
+0
+8
+8
+VoltMax PWM
+KSC641JLFS
+Up, Down, Fire
+Tactile Switch
+0
+4
+4
+VoltMax PWM
+LED_4mm
+LED, diameter 4.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-43GD(Ver.12B).pdf
+LED diameter 4.0mm 2 pins
+0
+2
+2
+VoltMax PWM
+MCP1703AT-5002E_MB
+
+
+0
+3
+3
+VoltMax PWM
+MIC1557YM5_TR
+SOT-23-5 (M5)
+Generator or Oscillator
+0
+5
+5
+VoltMax PWM
+Mount_PAD_VM
+
+
+0
+1
+1
+VoltMax PWM
+NCV4264-2ST50T3G
+
+
+0
+4
+4
+VoltMax PWM
+PAD_22G
+
+
+0
+1
+1
+VoltMax PWM
+PAD_24G
+
+
+0
+1
+1
+VoltMax PWM
+PSMN1R2-25YLC_115
+LFPAK56; PowerSO8 (SOT669)
+MOSFET (N-Channel)
+0
+6
+6
+VoltMax PWM
+RBR5LAM60ATR
+SOD-128 PMDTM
+Schottky Diode
+0
+2
+2
+VoltMax PWM
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+VoltMax PWM
+SolderWirePad_single_2-75mmDrill
+Wire solder connection
+connector
+0
+1
+1
+VoltMax PWM
+SS-12D07-VG4NSGAPA
+Description: Switch: SPDT: Normally Closed
+
+0
+5
+5
+VoltMax PWM
+SSM3J334R_LF
+SOT-23F (2-3Z1A)_1
+MOSFET (P-Channel)
+0
+3
+3
