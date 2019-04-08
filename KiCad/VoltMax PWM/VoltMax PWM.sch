@@ -48,7 +48,7 @@ Text Label 6950 3050 0    50   ~ 0
 510-
 Wire Wire Line
 	6350 4200 6950 4200
-Text Label 5100 4800 1    50   ~ 0
+Text Label 4950 4800 1    50   ~ 0
 VIN+toQ1Drain
 Connection ~ 6950 5050
 Wire Wire Line
@@ -579,35 +579,27 @@ Wire Wire Line
 $Comp
 L Device:R R5
 U 1 1 5CAAB1BD
-P 5450 3850
-F 0 "R5" V 5657 3850 50  0000 C CNN
-F 1 "570" V 5566 3850 50  0000 C CNN
-F 2 "VoltMax PWM:R_0603_1608Metric" V 5380 3850 50  0001 C CNN
-F 3 "~" H 5450 3850 50  0001 C CNN
-	1    5450 3850
+P 5550 3850
+F 0 "R5" V 5757 3850 50  0000 C CNN
+F 1 "570" V 5666 3850 50  0000 C CNN
+F 2 "VoltMax PWM:R_0603_1608Metric" V 5480 3850 50  0001 C CNN
+F 3 "~" H 5550 3850 50  0001 C CNN
+	1    5550 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED D3
 U 1 1 5CAACF2D
-P 5850 3850
-F 0 "D3" H 5850 4050 50  0000 C CNN
-F 1 "LED" H 5850 3950 50  0000 C CNN
-F 2 "VoltMax PWM:LED_4mm" H 5850 3850 50  0001 C CNN
-F 3 "~" H 5850 3850 50  0001 C CNN
-	1    5850 3850
+P 5950 3850
+F 0 "D3" H 5950 4050 50  0000 C CNN
+F 1 "LED" H 5950 3950 50  0000 C CNN
+F 2 "VoltMax PWM:LED_4mm" H 5950 3850 50  0001 C CNN
+F 3 "~" H 5950 3850 50  0001 C CNN
+	1    5950 3850
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5400 3500 5300 3500
-Wire Wire Line
-	5300 3500 5300 3850
-Wire Wire Line
-	5600 3850 5700 3850
-Wire Wire Line
-	6500 3850 6500 4800
-Wire Wire Line
-	6000 3850 6500 3850
+	5700 3850 5800 3850
 $Comp
 L VoltMax~PWM:SS12D07VG4NSGAPA S4
 U 1 1 5CA79FEC
@@ -679,13 +671,11 @@ Text Notes 8050 3950 0    50   ~ 0
 BATT- PAD to BATT-
 Text Label 5500 3050 0    50   ~ 0
 VIN+toSwitch
-Text Label 6250 3850 0    50   ~ 0
-VIN+toFire1
-Text Label 5650 3850 3    50   ~ 0
+Text Label 5750 3850 3    50   ~ 0
 R5toD3
 Text Label 4500 5150 0    50   ~ 0
 GatetoGND
-Text Label 5300 3500 3    50   ~ 0
+Text Label 5300 3800 3    50   ~ 0
 VIN+toR5
 Text Label 4000 3900 1    50   ~ 0
 VIN+fromQ1Source
@@ -758,4 +748,41 @@ Wire Wire Line
 Connection ~ 1650 2700
 Wire Wire Line
 	1650 2700 2050 2700
+Connection ~ 7000 2000
+$Comp
+L power:GND #PWR0102
+U 1 1 5CB29115
+P 6650 3400
+F 0 "#PWR0102" H 6650 3150 50  0001 C CNN
+F 1 "GND" H 6655 3227 50  0000 C CNN
+F 2 "" H 6650 3400 50  0001 C CNN
+F 3 "" H 6650 3400 50  0001 C CNN
+	1    6650 3400
+	-1   0    0    1   
+$EndComp
+Text GLabel 6650 3550 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6650 3400 6650 3850
+Wire Wire Line
+	6100 3850 6650 3850
+Wire Wire Line
+	5150 3500 5150 5200
+Wire Wire Line
+	5150 5200 6650 5200
+Wire Wire Line
+	6650 5200 6650 4800
+Wire Wire Line
+	6650 4800 6500 4800
+Text Label 5400 5200 3    50   ~ 0
+S4VIN+toS1
+Wire Wire Line
+	5400 3850 5300 3850
+Wire Wire Line
+	5150 3500 5300 3500
+Wire Wire Line
+	5300 3850 5300 3500
+Connection ~ 5300 3500
+Wire Wire Line
+	5300 3500 5400 3500
 $EndSCHEMATC
