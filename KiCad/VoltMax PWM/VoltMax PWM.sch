@@ -24,32 +24,18 @@ Wire Wire Line
 Wire Wire Line
 	4300 4800 4150 4800
 Wire Wire Line
-	2700 4300 2750 4300
-Wire Wire Line
 	2250 4200 2750 4200
 Wire Wire Line
 	2750 4100 2750 3900
 Wire Wire Line
 	2750 3900 2250 3900
 Connection ~ 2250 3900
-Wire Wire Line
-	3750 4100 3900 4100
-Wire Wire Line
-	3900 4100 3900 4800
-Connection ~ 3900 4800
-Wire Wire Line
-	2250 5400 2250 4200
-Connection ~ 2250 4200
-Wire Wire Line
-	2700 4300 2700 4800
-Wire Wire Line
-	2700 4800 3100 4800
 Text Label 6950 3050 0    50   ~ 0
 510-
 Wire Wire Line
 	6350 4200 6950 4200
-Text Label 4950 4800 1    50   ~ 0
-VIN+toQ1Drain
+Text Label 5150 4400 2    50   ~ 0
+VIN+toS4
 Connection ~ 6950 5050
 Wire Wire Line
 	6950 5050 6950 5400
@@ -87,12 +73,12 @@ $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5C9E7679
-P 2250 5400
-F 0 "#PWR01" H 2250 5150 50  0001 C CNN
-F 1 "GND" H 2255 5227 50  0000 C CNN
-F 2 "" H 2250 5400 50  0001 C CNN
-F 3 "" H 2250 5400 50  0001 C CNN
-	1    2250 5400
+P 1950 4950
+F 0 "#PWR01" H 1950 4700 50  0001 C CNN
+F 1 "GND" H 1955 4777 50  0000 C CNN
+F 2 "" H 1950 4950 50  0001 C CNN
+F 3 "" H 1950 4950 50  0001 C CNN
+	1    1950 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -138,17 +124,6 @@ F 2 "VoltMax PWM:R_0603_1608Metric" V 6130 4200 50  0001 C CNN
 F 3 "~" H 6200 4200 50  0001 C CNN
 	1    6200 4200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5C9B0658
-P 3250 4800
-F 0 "R2" V 3043 4800 50  0000 C CNN
-F 1 "1M" V 3134 4800 50  0000 C CNN
-F 2 "VoltMax PWM:R_0603_1608Metric" V 3180 4800 50  0001 C CNN
-F 3 "~" H 3250 4800 50  0001 C CNN
-	1    3250 4800
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
@@ -222,19 +197,17 @@ Wire Wire Line
 $Comp
 L VoltMax~PWM:KSC641JLFS S1
 U 1 1 5C9BEA02
-P 6500 4900
-F 0 "S1" H 7100 5165 50  0000 C CNN
-F 1 "KSC641JLFS" H 7100 5074 50  0000 C CNN
-F 2 "KSC641JLFS" H 7550 5000 50  0001 L CNN
-F 3 "" H 7550 4900 50  0001 L CNN
-F 4 "1 Way Surface Mount DIP & SIP Switch SPST-NO, Plunger Actuator, IP67" H 7550 4800 50  0001 L CNN "Description"
-F 5 "2" H 7550 4700 50  0001 L CNN "Height"
-F 6 "KSC641JLFS" H 7550 4500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6500 4900
+P 3800 5100
+F 0 "S1" H 4400 5365 50  0000 C CNN
+F 1 "KSC641JLFS" H 4400 5274 50  0000 C CNN
+F 2 "KSC641JLFS" H 4850 5200 50  0001 L CNN
+F 3 "" H 4850 5100 50  0001 L CNN
+F 4 "1 Way Surface Mount DIP & SIP Switch SPST-NO, Plunger Actuator, IP67" H 4850 5000 50  0001 L CNN "Description"
+F 5 "2" H 4850 4900 50  0001 L CNN "Height"
+F 6 "KSC641JLFS" H 4850 4700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3800 5100
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5300 4900 5300 4800
 $Comp
 L VoltMax~PWM:KSC641JLFS S3
 U 1 1 5CA137AA
@@ -356,19 +329,6 @@ Wire Wire Line
 	4950 4200 6050 4200
 Connection ~ 4950 4200
 Wire Wire Line
-	4950 4200 4950 4100
-$Comp
-L Device:R R4
-U 1 1 5C9B1043
-P 4950 3950
-F 0 "R4" H 5020 3996 50  0000 L CNN
-F 1 "1K" H 5020 3905 50  0000 L CNN
-F 2 "VoltMax PWM:R_0603_1608Metric" V 4880 3950 50  0001 C CNN
-F 3 "~" H 4950 3950 50  0001 C CNN
-	1    4950 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4650 1450 4950 1450
 Wire Wire Line
 	4650 1550 4650 2450
@@ -396,12 +356,6 @@ UP
 Text Label 1850 1500 0    50   ~ 0
 Down
 Wire Wire Line
-	3400 4800 3900 4800
-Connection ~ 5300 4800
-Wire Wire Line
-	6500 4900 6500 4800
-Connection ~ 6500 4800
-Wire Wire Line
 	800  1350 3650 1350
 Wire Wire Line
 	4850 1750 2050 1750
@@ -410,8 +364,6 @@ Wire Wire Line
 Connection ~ 4150 2450
 Wire Wire Line
 	3100 2450 4150 2450
-Wire Wire Line
-	4950 1450 4950 3800
 Wire Wire Line
 	2050 2700 2050 2450
 Wire Wire Line
@@ -473,7 +425,7 @@ $EndComp
 Wire Wire Line
 	7000 2000 7000 850 
 Wire Wire Line
-	4650 850  7000 850 
+	4650 850  5050 850 
 Wire Wire Line
 	7000 2000 7150 2000
 Wire Wire Line
@@ -490,14 +442,7 @@ Wire Wire Line
 	5400 2300 5400 2100
 Connection ~ 5400 2300
 Wire Wire Line
-	4900 4800 5300 4800
-Wire Wire Line
-	4000 4800 4000 3050
-Wire Wire Line
 	4000 3050 5150 3050
-Connection ~ 4000 4800
-Wire Wire Line
-	4000 4800 3900 4800
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 5CBF5CDE
@@ -517,7 +462,7 @@ Text GLabel 6950 5250 0    50   Input ~ 0
 GND
 Text GLabel 4500 5250 0    50   Input ~ 0
 GND
-Text GLabel 2250 5250 0    50   Input ~ 0
+Text GLabel 1950 4800 0    50   Input ~ 0
 GND
 Text GLabel 4150 2550 0    50   Input ~ 0
 GND
@@ -548,24 +493,24 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 5CA67677
-P 6500 4600
-F 0 "J5" H 6580 4642 50  0000 L CNN
-F 1 "PAD_Fire1" H 6580 4551 50  0000 L CNN
-F 2 "VoltMax PWM:PAD_22G" H 6500 4600 50  0001 C CNN
-F 3 "~" H 6500 4600 50  0001 C CNN
-	1    6500 4600
-	0    -1   -1   0   
+P 3900 5200
+F 0 "J5" H 3980 5242 50  0000 L CNN
+F 1 "PAD_Fire1" H 3980 5151 50  0000 L CNN
+F 2 "VoltMax PWM:PAD_22G" H 3900 5200 50  0001 C CNN
+F 3 "~" H 3900 5200 50  0001 C CNN
+	1    3900 5200
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 5CA66391
-P 5300 4600
-F 0 "J4" H 5380 4642 50  0000 L CNN
-F 1 "PAD_Fire2" H 5380 4551 50  0000 L CNN
-F 2 "VoltMax PWM:PAD_22G" H 5300 4600 50  0001 C CNN
-F 3 "~" H 5300 4600 50  0001 C CNN
-	1    5300 4600
-	0    -1   -1   0   
+P 2500 5200
+F 0 "J4" H 2580 5242 50  0000 L CNN
+F 1 "PAD_Fire2" H 2580 5151 50  0000 L CNN
+F 2 "VoltMax PWM:PAD_22G" H 2500 5200 50  0001 C CNN
+F 3 "~" H 2500 5200 50  0001 C CNN
+	1    2500 5200
+	0    1    1    0   
 $EndComp
 NoConn ~ 6300 3500
 NoConn ~ 6300 3400
@@ -577,10 +522,10 @@ Wire Wire Line
 Wire Wire Line
 	6500 3050 6500 2950
 $Comp
-L Device:R R5
+L Device:R R4
 U 1 1 5CAAB1BD
 P 5550 3850
-F 0 "R5" V 5757 3850 50  0000 C CNN
+F 0 "R4" V 5757 3850 50  0000 C CNN
 F 1 "570" V 5666 3850 50  0000 C CNN
 F 2 "VoltMax PWM:R_0603_1608Metric" V 5480 3850 50  0001 C CNN
 F 3 "~" H 5550 3850 50  0001 C CNN
@@ -679,12 +624,10 @@ Text Label 5300 3800 3    50   ~ 0
 VIN+toR5
 Text Label 4000 3900 1    50   ~ 0
 VIN+fromQ1Source
-Text Label 2700 4800 0    50   ~ 0
-U1toR2
-Text Label 3500 4800 0    50   ~ 0
-R2toVS
-Text Label 3900 4500 2    50   ~ 0
-R2toVS
+Text Label 2500 4700 0    50   ~ 0
+U1toS1
+Text Label 3900 4650 2    50   ~ 0
+S1toVS
 Text Label 5450 2700 0    50   ~ 0
 VIN+VM+
 Text Label 7000 1350 0    50   ~ 0
@@ -709,9 +652,6 @@ Wire Wire Line
 	5450 2850 4150 2850
 Wire Wire Line
 	4150 2850 4150 4800
-Connection ~ 4150 4800
-Wire Wire Line
-	4150 4800 4000 4800
 Text Label 3100 1100 0    50   ~ 0
 D2toSTR
 Text Label 4350 4200 0    50   ~ 0
@@ -767,15 +707,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3850 6650 3850
 Wire Wire Line
-	5150 3500 5150 5200
-Wire Wire Line
-	5150 5200 6650 5200
-Wire Wire Line
-	6650 5200 6650 4800
-Wire Wire Line
-	6650 4800 6500 4800
-Text Label 5400 5200 3    50   ~ 0
-S4VIN+toS1
+	5150 3500 5150 4800
 Wire Wire Line
 	5400 3850 5300 3850
 Wire Wire Line
@@ -785,4 +717,74 @@ Wire Wire Line
 Connection ~ 5300 3500
 Wire Wire Line
 	5300 3500 5400 3500
+$Comp
+L Device:R R2
+U 1 1 5C9B0658
+P 3300 4500
+F 0 "R2" V 3100 4500 50  0000 C CNN
+F 1 "10K" V 3200 4500 50  0000 C CNN
+F 2 "VoltMax PWM:R_0603_1608Metric" V 3230 4500 50  0001 C CNN
+F 3 "~" H 3300 4500 50  0001 C CNN
+	1    3300 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 4800 4900 4800
+Wire Wire Line
+	2600 5100 2600 5000
+Connection ~ 2600 5000
+Connection ~ 3800 5000
+Wire Wire Line
+	3800 5000 3800 5100
+Wire Wire Line
+	2500 5000 2600 5000
+Wire Wire Line
+	3900 5000 3800 5000
+Wire Wire Line
+	3900 4100 3900 5000
+Wire Wire Line
+	3750 4100 3900 4100
+Connection ~ 3900 5000
+Wire Wire Line
+	2500 4300 2750 4300
+Connection ~ 2500 5000
+Wire Wire Line
+	4000 4800 4000 3050
+Connection ~ 4150 4800
+Wire Wire Line
+	4150 4800 4000 4800
+Wire Wire Line
+	5050 850  5050 3250
+Wire Wire Line
+	5050 3250 4250 3250
+Wire Wire Line
+	4250 3250 4250 5000
+Connection ~ 5050 850 
+Wire Wire Line
+	5050 850  7000 850 
+Wire Wire Line
+	3900 5000 4250 5000
+Wire Wire Line
+	2500 4300 2500 5000
+Wire Wire Line
+	2750 4300 2750 4500
+Connection ~ 2750 4300
+Wire Wire Line
+	2250 4200 2250 4750
+Connection ~ 2250 4200
+Wire Wire Line
+	2750 4500 3150 4500
+Wire Wire Line
+	3450 4500 3450 4750
+Wire Wire Line
+	3450 4750 2250 4750
+Wire Wire Line
+	1950 4750 1950 4950
+Wire Wire Line
+	1950 4750 2250 4750
+Connection ~ 2250 4750
+Wire Wire Line
+	4950 1450 4950 4200
+Text Label 3050 4500 2    50   ~ 0
+CStoR2
 $EndSCHEMATC
