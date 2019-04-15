@@ -73,15 +73,18 @@ Pad wiring:
 
 510- to 510 negative
 
-BAT- to Battery negative
+BAT- to battery negative
 
-VIN+ to Battery positive
+VIN+ to battery positive
 
 F1 & F2 to 12mm momentary switch (if used)
-
-Voltmeter measurement wire (white or yellow) to 510+
 
 VM+ to voltmeter positive wire (red)
 
 VM- to voltmeter negative wire (black)
 
+Other wiring:
+
+Voltmeter measurement wire (white or yellow) to 510+
+
+510+ to battery positive
