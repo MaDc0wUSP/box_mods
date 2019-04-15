@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:VoltMax PWM-cache
 EELAYER 29 0
 EELAYER END
@@ -42,13 +42,13 @@ Wire Wire Line
 $Comp
 L power:-BATT #PWR0101
 U 1 1 5C9FEAFF
-P 8300 4200
-F 0 "#PWR0101" H 8300 4050 50  0001 C CNN
-F 1 "-BATT" H 8315 4373 50  0000 C CNN
-F 2 "" H 8300 4200 50  0001 C CNN
-F 3 "" H 8300 4200 50  0001 C CNN
-	1    8300 4200
-	1    0    0    -1  
+P 8600 4100
+F 0 "#PWR0101" H 8600 3950 50  0001 C CNN
+F 1 "-BATT" H 8450 4100 50  0000 C CNN
+F 2 "" H 8600 4100 50  0001 C CNN
+F 3 "" H 8600 4100 50  0001 C CNN
+	1    8600 4100
+	-1   0    0    1   
 $EndComp
 $Comp
 L VoltMax~PWM:DB4X313K0R D1
@@ -454,8 +454,6 @@ F 3 "~" H 8500 4500 50  0001 C CNN
 	1    8500 4500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8300 4200 8300 4500
 Text GLabel 8300 4300 0    50   Input ~ 0
 GND
 Text GLabel 6950 5250 0    50   Input ~ 0
@@ -588,13 +586,13 @@ Wire Wire Line
 $Comp
 L power:GND #PWR07
 U 1 1 5CAF4561
-P 7950 2250
-F 0 "#PWR07" H 7950 2000 50  0001 C CNN
-F 1 "GND" H 7955 2077 50  0000 C CNN
-F 2 "" H 7950 2250 50  0001 C CNN
-F 3 "" H 7950 2250 50  0001 C CNN
-	1    7950 2250
-	-1   0    0    1   
+P 7800 2250
+F 0 "#PWR07" H 7800 2000 50  0001 C CNN
+F 1 "GND" H 7805 2077 50  0000 C CNN
+F 2 "" H 7800 2250 50  0001 C CNN
+F 3 "" H 7800 2250 50  0001 C CNN
+	1    7800 2250
+	1    0    0    -1  
 $EndComp
 Text GLabel 7950 2400 2    50   Input ~ 0
 GND
@@ -692,18 +690,16 @@ Connection ~ 7000 2000
 $Comp
 L power:GND #PWR0102
 U 1 1 5CB29115
-P 6650 3400
-F 0 "#PWR0102" H 6650 3150 50  0001 C CNN
-F 1 "GND" H 6655 3227 50  0000 C CNN
-F 2 "" H 6650 3400 50  0001 C CNN
-F 3 "" H 6650 3400 50  0001 C CNN
-	1    6650 3400
-	-1   0    0    1   
+P 6800 3350
+F 0 "#PWR0102" H 6800 3100 50  0001 C CNN
+F 1 "GND" H 6805 3177 50  0000 C CNN
+F 2 "" H 6800 3350 50  0001 C CNN
+F 3 "" H 6800 3350 50  0001 C CNN
+	1    6800 3350
+	1    0    0    -1  
 $EndComp
-Text GLabel 6650 3550 2    50   Input ~ 0
+Text GLabel 6650 3450 0    50   Input ~ 0
 GND
-Wire Wire Line
-	6650 3400 6650 3850
 Wire Wire Line
 	6100 3850 6650 3850
 Wire Wire Line
@@ -787,4 +783,16 @@ Wire Wire Line
 	4950 1450 4950 4200
 Text Label 3050 4500 2    50   ~ 0
 CStoR2
+Wire Wire Line
+	7800 2250 7950 2250
+Wire Wire Line
+	6800 3300 6800 3350
+Wire Wire Line
+	6650 3300 6650 3850
+Wire Wire Line
+	6650 3300 6800 3300
+Wire Wire Line
+	8600 4100 8300 4100
+Wire Wire Line
+	8300 4100 8300 4500
 $EndSCHEMATC
