@@ -8,13 +8,17 @@ Additional Digipot, regulator schematics, original PCB base design, and lots of 
 
 Designed by MaDc0w
 
+Notes:
+
+- Supports 2-3S
+
 - Will fire @ 100% in a reverse polarity condition. It won't auto fire though, as the timer is only powered when you hit the switch.
 
-Board-A:
-Alpinetech DNA75C/DNA250C compatible enclosure with or without 12mm momentary switch cutout.
+Board-A: 
+- Alpinetech DNA75C/DNA250C compatible enclosure with or without 12mm momentary switch cutout.
 
-Board-B:
-ModMaker/StealthVape DNA75C/DNA250C compatible enclosure with or without 12mm momentary switch cutout.
+Board-B: 
+- ModMaker/StealthVape DNA75C/DNA250C compatible enclosure with or without 12mm momentary switch cutout.
 
 Components:
 
