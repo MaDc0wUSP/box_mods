@@ -58,11 +58,11 @@ Q2 - https://www.mouser.com/ProductDetail/771-PSMN1R2-25YL%2c115
 
 R1 - https://www.mouser.com/ProductDetail/755-KTR03EZPJ105
 
-R2 - https://www.mouser.com/ProductDetail/71-CRCW0201-10K
+R2 - https://www.mouser.com/ProductDetail/RCS060310K0FKEA
 
-R3 - https://www.mouser.com/ProductDetail/71-CRCW02011K00FNED
+R3 - https://www.mouser.com/ProductDetail/CRCW06031K00FKEAHP
 
-R4 - https://www.mouser.com/ProductDetail/71-CRCW0805560RJNEA
+R4 - https://www.mouser.com/ProductDetail/CRCW0805560RFKEAHP
 
 
 S1, S2, S3 - https://www.mouser.com/ProductDetail/653-B3SL-1005P
